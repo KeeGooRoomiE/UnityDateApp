@@ -20,6 +20,7 @@ public class LoadingScreenBehaviour : MonoBehaviour
     [SerializeField] private Animator anim;
     //[SerializeField] private Animation anim;
     [SerializeField] private Image loaderImage;
+    public GameObject AppScene; 
     private float stepTime;
 
     // Start is called before the first frame update
@@ -45,6 +46,7 @@ public class LoadingScreenBehaviour : MonoBehaviour
         yield return new WaitForSeconds(1.2f);
         Debug.Log("//CLOSING PANEL");
         gameObject.SetActive(false);
+        AppScene.SetActive(true);
     }
 
     public void RotateCircle()

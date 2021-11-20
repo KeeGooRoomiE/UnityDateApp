@@ -34,8 +34,7 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -518658923857348885}
-  m_StateMachineBehaviours:
-  - {fileID: 7573656615236127880}
+  m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -106,3 +105,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46a61dc260a8a44cab679a7646609bc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AppScene: {fileID: 0}
