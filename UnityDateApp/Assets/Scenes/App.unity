@@ -3616,7 +3616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9397cac8cddfb4d1eac48bebb88c8b65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDelay: 1.6
+  startDelay: 1.8
   isAccepted: 0
 --- !u!111 &2049924622
 Animation:
